@@ -72,6 +72,10 @@ This example project demonstrates how to use the `llama_index` library for index
    print(f"RESPONSE:\n{response}")
    ```
 
+## Running the app:
+
+Assuming the `.env` is set correctly, just `python app.py`.
+
 ## Notes
 
 - The `SimpleWebPageReader` is no longer available in `llama_index`. Use `BeautifulSoupWebReader` as an alternative.
