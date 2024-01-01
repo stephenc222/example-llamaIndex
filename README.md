@@ -18,14 +18,13 @@ This example project demonstrates how to use the `llama_index` library for index
    pip install llama_index python-dotenv
    ```
 
-2. Set up the `.env` file at the root of your project with the following keys:
+2. Set up the `.env` file at the root of your project with the following key:
 
    ```plaintext
-   OPENAI_API_KEY=YOUR_OPENAI_API_KEY
    MISTRAL_API_KEY=YOUR_MISTRAL_API_KEY
    ```
 
-   Replace `YOUR_OPENAI_API_KEY` and `YOUR_MISTRAL_API_KEY` with your respective API keys.
+   Replace `YOUR_MISTRAL_API_KEY` with your respective API key.
 
 3. Load environment variables:
 
